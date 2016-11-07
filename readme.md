@@ -18,3 +18,6 @@ __close_price__ - this is the price that we are looking to close the transaction
     * _True_ - set the buy/short price and the correponding sell/buy price. 
     * _False_ - sleep for another minute
     
+## Packages
+pip install 
+* bitcoin-price-api

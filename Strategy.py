@@ -44,6 +44,10 @@ class Strategy(object):
         self.close_price = 0
         self.intervals_to_close = intervals_til_close
         self.std_mult = std_mult
+        self.short_min = (self.bitcoin.average_hist_price() +
+                             (self.std_mult * self.bitcoin.std_hist_price()))
+        self.buy_min = (self.bitcoin.average_hist_price() -
+                             (self.std_mult * self.bitcoin.std_hist_price()))
         self.run_file = 'runs/runs.txt'
         self.current_run = self.get_current_run()
 
@@ -98,13 +102,11 @@ class Strategy(object):
     def update_interval(self):
         price = self.bitcoin.current_price()
         if self.status == Status.ACTIVE: # If active check price to open
-            if price >= (self.bitcoin.average_hist_price() +
-                             (self.std_mult * self.bitcoin.std_hist_price())):
-                self.status = Status.SHORT
+            if price >= self.short_min:
+                self.status = Status.BUY # TODO Change back to SHORT and below to BUY
                 self.open_price = price
-            elif price <= (self.bitcoin.average_hist_price() -
-                             (self.std_mult * self.bitcoin.std_hist_price())):
-                self.status = Status.BUY
+            elif price <= self.buy_min:
+                self.status = Status.SHORT
                 self.open_price = price
         else: # If trading check price to close
             if self.intervals_to_close == 0:
@@ -123,6 +125,7 @@ class Strategy(object):
             _False_ - sleep for another minute
 
         """
+        print 'Run %d Started with ShortMin (%f) and BuyMin (%f)' %(self.current_run, self.short_min, self.buy_min)
         active = True
         while active:
             current_time = datetime.now()
@@ -138,7 +141,7 @@ class Strategy(object):
 
 
 def main():
-    mult = 2
+    mult = 1
     intervals_til_close = 10
     lookback='2016-10-31'
 

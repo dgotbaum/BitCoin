@@ -4,7 +4,9 @@ Program Descriptions
 import pandas as pd
 from exchanges.coindesk import CoinDesk
 from datetime import datetime
-import decimal
+from StringIO import StringIO
+import urllib2
+import gzip
 
 __author__ = 'Drew.gotbaum'
 __date__ = '11/3/2016'
@@ -13,6 +15,8 @@ __copyright__ = 'The Oakleaf Group, LLC.'
 
 
 class BitCoin(object):
+    API = "http://api.bitcoincharts.com/v1/csv/bitstampUSD.csv.gz"
+
     def __init__(self, lookback):
         """
         Initialize the strategy by setting the initial lookback,
@@ -46,9 +50,12 @@ class BitCoin(object):
         :return: dataframe of historical data
         :rtype: pd.DataFrame
         """
-        hist = CoinDesk.get_historical_data_as_list(start=self.lookback)
-        df = pd.DataFrame.from_dict(hist)
-        df['price'] = df.price.apply(float)
+
+        response = StringIO(urllib2.urlopen(self.API).read())
+        string_csv = gzip.GzipFile(fileobj=response, mode='rb')
+        df = pd.read_csv(string_csv, header=None, names=['ts','price','volume'])
+        df['date'] = df.ts.apply(datetime.fromtimestamp)
+        df = df[df.date > self.lookback]
         df = df.set_index('date')
         return df
 

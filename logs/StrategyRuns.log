@@ -223,3 +223,84 @@
 [11/07/2016 11:27], Starting new HTTPS connection (1): api.coindesk.com
 [11/07/2016 11:27], Starting new HTTP connection (1): api.coindesk.com
 [11/07/2016 11:27], 10,ACTIVE,54,704.562500
+[11/07/2016 13:33], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:33], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:33], 11,ACTIVE,2,705.297500
+[11/07/2016 13:34], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:34], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:34], 11,ACTIVE,3,705.146300
+[11/07/2016 13:35], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:35], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:35], 11,ACTIVE,4,705.146300
+[11/07/2016 13:37], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:37], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:37], 13,ACTIVE,2,705.121300
+[11/07/2016 13:40], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:40], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:40], 15,ACTIVE,2,705.102500
+[11/07/2016 13:41], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:41], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:41], 15,ACTIVE,3,705.107500
+[11/07/2016 13:42], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:42], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:42], 15,ACTIVE,4,705.077500
+[11/07/2016 13:43], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:43], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:43], 15,ACTIVE,5,705.088800
+[11/07/2016 13:44], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:44], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:44], 15,ACTIVE,6,705.478800
+[11/07/2016 13:45], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 13:45], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 13:45], 15,ACTIVE,7,705.478800
+[11/07/2016 15:09], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:09], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:09], 16,ACTIVE,2,706.201300
+[11/07/2016 15:10], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:10], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:11], 16,ACTIVE,3,706.730000
+[11/07/2016 15:12], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:12], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:12], 16,ACTIVE,4,706.798800
+[11/07/2016 15:13], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:13], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:13], 16,ACTIVE,5,706.980000
+[11/07/2016 15:14], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:14], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:14], 16,ACTIVE,6,706.907500
+[11/07/2016 15:15], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:15], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:15], 16,ACTIVE,7,706.832500
+[11/07/2016 15:16], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:16], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:16], 16,ACTIVE,8,706.841300
+[11/07/2016 15:17], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:17], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:17], 16,ACTIVE,9,706.780000
+[11/07/2016 15:18], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:18], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:18], 16,ACTIVE,10,706.780000
+[11/07/2016 15:19], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:19], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:19], 16,ACTIVE,11,706.798800
+[11/07/2016 15:20], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:20], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:20], 16,ACTIVE,12,706.833800
+[11/07/2016 15:21], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:21], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:21], 16,ACTIVE,13,706.790000
+[11/07/2016 15:22], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:22], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:22], 16,ACTIVE,14,706.807500
+[11/07/2016 15:23], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:23], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:23], 16,ACTIVE,15,706.706300
+[11/07/2016 15:24], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:24], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:24], 16,ACTIVE,16,706.617500
+[11/07/2016 15:25], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:25], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:25], 16,ACTIVE,17,706.720000
+[11/07/2016 15:26], Starting new HTTPS connection (1): api.coindesk.com
+[11/07/2016 15:26], Starting new HTTP connection (1): api.coindesk.com
+[11/07/2016 15:26], 16,ACTIVE,18,706.757500
