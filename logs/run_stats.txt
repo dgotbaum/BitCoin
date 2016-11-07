@@ -1,0 +1,2 @@
+run,intervals,minutes,profit,transaction
+4,23,1,703.335000,SHORT5,23,1,702.556300,SHORT
